@@ -91,7 +91,7 @@ class FactorizedReduce(nn.Module):
     out = self.bn(out)
     return out
 
-class FactorizedIncrease (nn.Module) :
+class FactorizedIncrease(nn.Module) :
     def __init__ (self, in_channel, out_channel) :
         super(FactorizedIncrease, self).__init__()
 
